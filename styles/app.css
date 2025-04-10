@@ -1,0 +1,48 @@
+:root {
+  scroll-behavior: smooth;
+  user-select: none;
+}
+
+/* -------------------- Reset styles -------------------- */
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* -------------------- App -------------------- */
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.8;
+}
+
+
+.container {
+  background-color: aqua;
+  height: 100px;
+}
+
+.row{
+  height: 100%;
+  background-color: blueviolet;
+}
+.row > * {
+  height: 100%;
+  background-color: brown;
+}
